@@ -1,0 +1,20 @@
+<div class="details position-fixed top-0 end-0 start-0 bottom-0 py-5">
+  <div class="container">
+    <div class="exit position-relative">
+      <i (click)="exitPopUp()" class="fa-solid fa-circle-xmark fa-2x  position-absolute end-0 top-0 text-danger"></i>
+    </div>
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-3">
+        <img [src]="SpecaficBook.thumbnailUrl" alt="" srcset="">
+      </div>
+      <div class="col-md-8">
+        <h1>Title : {{SpecaficBook.title}}</h1>
+        <h2>Author : {{SpecaficBook.author}}</h2>
+        <h4>publicationYear : {{SpecaficBook.publicationYear}}</h4>
+        <p>
+          {{SpecaficBook.description}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

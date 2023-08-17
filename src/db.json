@@ -1,0 +1,28 @@
+{
+  "books":[
+    {
+      "id":1,
+      "title":"Never Lie",
+      "author":"Freida McFadden",
+      "description":"Newlyweds Tricia and Ethan are searching for the house of their dreams.But when they visit the remote manor that once belonged to Dr. Adrienne Hale, a renowned psychiatrist who vanished without a trace four years earlier, a violent winter storm traps them at the estate… with no chance of escape until the blizzard comes to an end.",
+      "publicationYear":2023,
+      "thumbnailUrl":"https://m.media-amazon.com/images/I/41oCesFWhdL.jpg"
+    },
+    {
+      "id":2,
+      "title":"The Housemaid",
+      "author":"Freida McFadden",
+      "description":"Welcome to the family Nina Winchester says as I shake her elegant, manicured hand. I smile politely, gazing around the marble hallway. Working here is my last chance to start fresh. I can pretend to be whoever I like. But I’ll soon learn that the Winchesters’ secrets are far more dangerous than my own.",
+      "publicationYear":2023,
+      "thumbnailUrl":"https://m.media-amazon.com/images/I/51kWVdaICZL.jpg"
+    },
+    {
+      "id":2,
+      "title":"Beryl Markham",
+      "author":"West with the Night",
+      "description":"Enjoy a great reading experience when you buy the Kindle edition of this book.The classic memoir of Africa, aviation, and adventure—the inspiration for Paula McLain’s Circling the Sun and “a bloody wonderful book” (Ernest Hemingway.",
+      "publicationYear":2023,
+      "thumbnailUrl":"https://m.media-amazon.com/images/I/51kWVdaICZL.jpg"
+    }
+  ]
+}

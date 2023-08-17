@@ -1,0 +1,21 @@
+<div class="container text-white py-4">
+  <h1>Book Review</h1>
+  <div class="row row-cols-md-4 py-4">
+    <div (click)="getDeatils(book.id)" *ngFor="let book of Books" class="book col">
+      <div class="item">
+        <div class="image d-flex">
+          <img  height="400" class="w-100" [src]="book.thumbnailUrl" alt="">
+        </div>
+        <div class="content p-2">
+          <h4>Title : <span class="text-danger">{{book.title}}</span></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <ng-container>
+
+     <p (click)="getDeatils(book.id)" *ngFor="let book of Books">{{book.title}}</p>
+  </ng-container> -->
+</div>
+<app-book-details [bookId]="id" *ngIf="isWork"></app-book-details>

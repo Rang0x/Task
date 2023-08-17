@@ -1,0 +1,8 @@
+.details{
+  z-index: 9999;
+  background-color: white;
+}
+
+i{
+  cursor: pointer;
+}
